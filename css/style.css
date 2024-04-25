@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+}
+
+#calculadora {
+    background-color: rgb(135, 65, 185);
+    border-radius: 32px;
+    padding: 24px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.screen {
+    border-radius: 16px;
+    background-color: whitesmoke;
+    width: 400px;
+    height: 40px;
+    text-align: center;
+}
+
+.numpad {
+    padding: 0;
+    max-width: 480px;
+}
+
+.buttons {
+    gap: 20px;
+}

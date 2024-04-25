@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <div class="app-container">
+      <article id="calculadora" class="container">
+        <section id="screen">
+          <div class="screen">0</div>
+        </section>
+        <section id="numpad" class="container text-center">
+          <div class="row buttons">
+            <div class="col-md">
+              <div class="row">
+                <button class="col number btn-light" value="9">9</button>
+                <button class="col number btn-light" value="8">8</button>
+                <button class="col number btn-light" value="7">7</button>
+              </div>
+              <div class="row">
+                <button class="col number btn-light" value="6">6</button>
+                <button class="col number btn-light" value="5">5</button>
+                <button class="col number btn-light" value="4">4</button>
+              </div>
+              <div class="row">
+                <button class="col number btn-light" value="3">3</button>
+                <button class="col number btn-light" value="2">2</button>
+                <button class="col number btn-light" value="1">1</button>
+              </div>
+              <div class="row">
+                <button class="col number btn-secondary" value=".">.</button>
+                <button class="col number btn-light" value="0">0</button>
+                <button class="col number btn-danger" value="=">=</button>
+              </div>
+              <div class="row row-cols-3">
+                <button class="col number btn-secondary" value="(">(</button>
+                <button class="col number btn-secondary" value=")">)</button>
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="row">
+                <button class="col btn-secondary action">+</button>
+                <button class="col btn-secondary action">-</button>
+              </div>
+              <div class="row">
+                <button class="col btn-secondary action">*</button>
+                <button class="col btn-secondary action">/</button>
+              </div>
+              <div class="row">
+                <button class="col btn-secondary action">^</button>
+                <button class="col btn-secondary action">root</button>
+              </div>
+              <div class="row">
+                <button class="col btn-secondary action">sin</button>
+                <button class="col btn-secondary action">cos</button>
+              </div>
+              <div class="row row-cols-2">
+                <button class="col btn-secondary action">Tan</button>
+                <button class="col btn-secondary action">C</button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>
