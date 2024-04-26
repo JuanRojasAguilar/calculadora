@@ -100,7 +100,11 @@ const clearScreen = () => {
 };
 
 const equal = () => {
-  console.log(state.operation);
-  const res = eval(state.operation);
-  screen.textContent = res;
+  try {
+    console.log(state.operation);
+    const res = eval(state.operation);
+    screen.textContent = res;
+  } catch (e) {
+    screen.textContent = "Syntax Error";
+  }
 };
