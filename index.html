@@ -18,55 +18,50 @@
           <div class="row buttons">
             <div class="col-md">
               <div class="row">
-                <button class="col number btn-light" value="9" onclick="clickNumber(9)">9</button>
-                <button class="col number btn-light" value="8" onclick="clickNumber(8)">8</button>
-                <button class="col number btn-light" value="7" onclick="clickNumber(8)">7</button>
+                <button class="col number btn-light" onclick="clickNumber(9)">9</button>
+                <button class="col number btn-light" onclick="clickNumber(8)">8</button>
+                <button class="col number btn-light" onclick="clickNumber(7)">7</button>
               </div>
               <div class="row">
-                <button class="col number btn-light" value="6" onclick="clickNumber(8)">6</button>
-                <button class="col number btn-light" value="5" onclick="clickNumber(8)">5</button>
-                <button class="col number btn-light" value="4" onclick="clickNumber(8)">4</button>
+                <button class="col number btn-light" onclick="clickNumber(6)">6</button>
+                <button class="col number btn-light" onclick="clickNumber(5)">5</button>
+                <button class="col number btn-light" onclick="clickNumber(4)">4</button>
               </div>
               <div class="row">
-                <button class="col number btn-light" value="3" onclick="clickNumber(8)">3</button>
-                <button class="col number btn-light" value="2" onclick="clickNumber(8)">2</button>
-                <button class="col number btn-light" value="1" onclick="clickNumber(8)">1</button>
+                <button class="col number btn-light" onclick="clickNumber(3)">3</button>
+                <button class="col number btn-light" onclick="clickNumber(2)">2</button>
+                <button class="col number btn-light" onclick="clickNumber(1)">1</button>
               </div>
               <div class="row">
-                <button class="col number btn-secondary" value="." onclick="clickNumber(8)">.</button>
-                <button class="col number btn-light" value="0" onclick="clickNumber(8)">0</button>
-                <button class="col number btn-danger" value="=" onclick="clickNumber(8)">=</button>
+                <button class="col number btn-secondary" onclick="clickNumber('.')">.</button>
+                <button class="col number btn-light" onclick="clickNumber(0)">0</button>
+                <button class="col number btn-danger" onclick="equal()">=</button>
               </div>
               <div class="row row-cols-3">
-                <button class="col number btn-secondary" value="(" onclick="clickNumber(8)">(</button>
-                <button class="col number btn-secondary" value=")" onclick="clickNumber(8)">)</button>
+                <button class="col number btn-secondary" onclick="clickNumber('(')">(</button>
+                <button class="col number btn-secondary" onclick="clickNumber(')')">)</button>
               </div>
             </div>
             <div class="col-md">
               <div class="row">
-                <button class="col btn-secondary action" onclick="clickNumber(8)">+</button>
-                <button class="col btn-secondary action" onclick="clickNumber(8)">-</button>
+                <button class="col btn-secondary action" onclick="clickAction('+')">+</button>
+                <button class="col btn-secondary action" onclick="clickAction('-')">-</button>
               </div>
               <div class="row">
-                <button class="col btn-secondary action" onclick="clickNumber(8)">*</button>
-                <button class="col btn-secondary action" onclick="clickNumber(8)">/</button>
+                <button class="col btn-secondary action" onclick="clickAction('*')">*</button>
+                <button class="col btn-secondary action" onclick="clickAction('/')">/</button>
               </div>
               <div class="row">
-<<<<<<< HEAD
-                <button class="col btn-secondary action">^</button>
-                <button class="col btn-secondary action">√</button>
-=======
-                <button class="col btn-secondary action" onclick="clickNumber(8)">^</button>
-                <button class="col btn-secondary action" onclick="clickNumber(8)">root</button>
->>>>>>> d7771c9 (rebase)
+                <button class="col btn-secondary action" onclick="clickAction('^')">^</button>
+                <button class="col btn-secondary action" onclick="clickAction('root')">√</button>
               </div>
               <div class="row">
-                <button class="col btn-secondary action" onclick="clickNumber(8)">sin</button>
-                <button class="col btn-secondary action" onclick="clickNumber(8)">cos</button>
+                <button class="col btn-secondary action" onclick="clickAction('sin(')">sin</button>
+                <button class="col btn-secondary action" onclick="clickAction('cos(')">cos</button>
               </div>
               <div class="row row-cols-2">
-                <button class="col btn-secondary action" onclick="clickNumber(8)">Tan</button>
-                <button class="col btn-secondary action" onclick="clickNumber(8)">C</button>
+                <button class="col btn-secondary action" onclick="clickAction('tan(')">Tan</button>
+                <button class="col btn-secondary action" onclick="clearScreen()">C</button>
               </div>
             </div>
           </div>
