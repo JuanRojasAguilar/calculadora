@@ -1,12 +1,8 @@
+const numberButton = document.querySelector(".number");
 const screen = document.querySelector(".screen");
-const nonErasingFunction = '-' || '√' || 'sin(' || 'cos(' || 'tan(';
 
-const changeScreen = (val) => {
-  if (screen.textContent == '0') {
-    screen.textContent = val;
-  } else if (screen.screenContent == nonErasingFunction) {
-    screen.textContent += val;
-  } else {
-    screen.textContent += val;
-  }
+const clickNumber = (buttonNumber) => {
+  console.log(buttonNumber);
+  screen.textContent = buttonNumber;
 }
+
