@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-}
-
 #calculadora {
     background-color: rgb(135, 65, 185);
     border-radius: 32px;
@@ -17,11 +14,15 @@ body {
 }
 
 .screen {
+    border: 2px dashed black;
     border-radius: 16px;
     background-color: whitesmoke;
     width: 400px;
     height: 40px;
-    text-align: center;
+    text-align: end;
+    padding-top: 6px;
+    padding-right: 12px;
+    margin-bottom: 16px;
 }
 
 .numpad {
@@ -32,3 +33,9 @@ body {
 .buttons {
     gap: 20px;
 }
+
+.number,
+.action {
+    height: 80px;
+}
+
